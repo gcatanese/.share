@@ -1,0 +1,521 @@
+{
+  "source": {
+    "runUrl": "https://github.com/Adyen/adyen-sdk-automation/actions/runs/35854500855",
+    "runStartedAt": "2026-09-28T18:08:33Z",
+    "sdkAutomationCommit": "2a1bc1a398b88df72d0331fc6107d1a506685e93",
+    "openapiCommit": "1f65c97e26bafa8f7a5d35931b26e16edeec345e",
+    "note": "Reconstructed from public repository inputs; the workflow job output and exact OpenAPI checkout SHA are not publicly accessible. OpenAPI commit is the latest commit at or before run start, not confirmed as the checked-out commit."
+  },
+  "generatedAt": "2026-09-30T12:37:28+00:00",
+  "summary": {
+    "publishedSpecs": 50,
+    "catalogServices": 30,
+    "current": 29,
+    "outdated": 1,
+    "uncovered": 20,
+    "missingSpec": 0,
+    "acceptedGaps": 21
+  },
+  "specs": [
+    {
+      "spec": "A2APaymentsService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "AccountService",
+      "service": null,
+      "publishedVersion": 6,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "Classic Platforms integration, superseded by Legal Entity Management and Balance Platform. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "BalanceControlService",
+      "service": "BalanceControl",
+      "publishedVersion": 2,
+      "catalogVersion": 1,
+      "status": "outdated",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: v2 renames /balanceTransfer to /balanceTransfers and adds the balance overview endpoints, so bumping is a breaking change across all libraries. Decide and schedule it.",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformAccountingNotification",
+      "service": null,
+      "publishedVersion": 3,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformAcsNotification",
+      "service": "AcsWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformBalanceNotification",
+      "service": "BalanceWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformConfigurationNotification",
+      "service": "ConfigurationWebhooks",
+      "publishedVersion": 2,
+      "catalogVersion": 2,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformDisputeNotification",
+      "service": "DisputeWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformGrantNotification",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformManagedRiskNotification",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformNegativeBalanceCompensationWarningNotification",
+      "service": "NegativeBalanceWarningWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformPaymentNotification",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "The spec marks these webhooks as deprecated in favour of the accounting webhooks. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformRelayedAuthorisationNotification",
+      "service": "RelayedAuthorizationWebhooks",
+      "publishedVersion": 4,
+      "catalogVersion": 4,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformReportNotification",
+      "service": "ReportWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformService",
+      "service": "BalancePlatform",
+      "publishedVersion": 2,
+      "catalogVersion": 2,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformTransactionNotification",
+      "service": "TransactionWebhooks",
+      "publishedVersion": 4,
+      "catalogVersion": 4,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BalancePlatformTransferNotification",
+      "service": "TransferWebhooks",
+      "publishedVersion": 4,
+      "catalogVersion": 4,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "BinLookupService",
+      "service": "BinLookup",
+      "publishedVersion": 54,
+      "catalogVersion": 54,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "CapitalService",
+      "service": "Capital",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "CheckoutService",
+      "service": "Checkout",
+      "publishedVersion": 72,
+      "catalogVersion": 72,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "CloudDeviceService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: hand-maintained outside the generator in some libraries (see com/adyen/service/clouddevice in Java). Decide whether to generate it instead.",
+      "ticket": ""
+    },
+    {
+      "spec": "DataProtectionService",
+      "service": "DataProtection",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "DisputeService",
+      "service": "Disputes",
+      "publishedVersion": 30,
+      "catalogVersion": 30,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "DocumentCollectorService",
+      "service": "DocumentCollector",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "ForeignExchangeService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "ForwardApiNotification",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "FundService",
+      "service": null,
+      "publishedVersion": 6,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "Classic Platforms integration, superseded by Transfers and Balance Platform. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "HopService",
+      "service": null,
+      "publishedVersion": 6,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "Classic Platforms hosted onboarding, superseded by Legal Entity Management. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "LegalEntityService",
+      "service": "LegalEntityManagement",
+      "publishedVersion": 4,
+      "catalogVersion": 4,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "ManagementNotificationService",
+      "service": "ManagementWebhooks",
+      "publishedVersion": 3,
+      "catalogVersion": 3,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "ManagementService",
+      "service": "Management",
+      "publishedVersion": 3,
+      "catalogVersion": 3,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "MarketPayNotificationService",
+      "service": null,
+      "publishedVersion": 6,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "Classic Platforms notifications, superseded by the Balance Platform webhooks. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "NotificationConfigurationService",
+      "service": null,
+      "publishedVersion": 6,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "Classic Platforms notification configuration, superseded by Management API. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "OpenBankingService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: hand-maintained outside the generator in some libraries (see com/adyen/service/openbanking in Java). Decide whether to generate it instead.",
+      "ticket": ""
+    },
+    {
+      "spec": "PaymentService",
+      "service": "Payment",
+      "publishedVersion": 68,
+      "catalogVersion": 68,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "PaymentsAppService",
+      "service": "PaymentsApp",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "PayoutService",
+      "service": "Payout",
+      "publishedVersion": 68,
+      "catalogVersion": 68,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "RaiseDisputesService",
+      "service": null,
+      "publishedVersion": 4,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "RecurringService",
+      "service": "Recurring",
+      "publishedVersion": 68,
+      "catalogVersion": 68,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "SessionAuthenticationService",
+      "service": "SessionAuthentication",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "SessionService",
+      "service": "PosMobile",
+      "publishedVersion": 68,
+      "catalogVersion": 68,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "SoftPOSConfigurationService",
+      "service": null,
+      "publishedVersion": 3,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "StoredValueService",
+      "service": "StoredValue",
+      "publishedVersion": 46,
+      "catalogVersion": 46,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "TerminalAPI",
+      "service": "Tapi",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "TestCardService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why this spec has no SDK coverage",
+      "ticket": ""
+    },
+    {
+      "spec": "TfmAPIService",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "The spec marks the POS Terminal Management API as deprecated, superseded by Management API. Not generated.",
+      "ticket": ""
+    },
+    {
+      "spec": "TokenizationNotification",
+      "service": "TokenizationWebhooks",
+      "publishedVersion": 1,
+      "catalogVersion": 1,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "TransactionService",
+      "service": null,
+      "publishedVersion": 4,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: shares its title and description with RaiseDisputesService, so confirm whether this spec is superseded before deciding.",
+      "ticket": ""
+    },
+    {
+      "spec": "TransferService",
+      "service": "Transfers",
+      "publishedVersion": 4,
+      "catalogVersion": 4,
+      "status": "current",
+      "acceptedGap": false,
+      "reason": "",
+      "ticket": ""
+    },
+    {
+      "spec": "Webhooks",
+      "service": null,
+      "publishedVersion": 1,
+      "catalogVersion": null,
+      "status": "uncovered",
+      "acceptedGap": true,
+      "reason": "UNREVIEWED: record why the standard webhooks spec is not generated.",
+      "ticket": ""
+    }
+  ]
+}
